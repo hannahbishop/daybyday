@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.4",
-    "realm": "^2.7.2"
+    "realm": "^2.8.1"
   },
   "devDependencies": {
     "babel-jest": "23.0.1",
@@ -23,7 +23,8 @@
   },
   "rnpm": {
     "assets": [
-	    "./assets/fonts/"
+      "./assets/fonts/",
+      "./assets/images"
     ]
   }
 }

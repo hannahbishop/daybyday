@@ -43,6 +43,9 @@
 		82114B9B332340AE98CCB584 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFC400F099424BAF8AB97F0D /* NunitoSans-Bold.ttf */; };
 		22505EB9E439402293F5D1F6 /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE686332C2940CBB6A4BB71 /* NunitoSans-ExtraBold.ttf */; };
 		27726329E97B49BC8AA7DFEB /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EE465C51846A7AC491590 /* ProximaNova-Semibold.otf */; };
+		A0091BEB9BEB4B309E471493 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC960FBC65CE46BDB39CE007 /* user.jpg */; };
+		D286BA01EA1746B89F5195B2 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = B7271935AA2C4F22B1A6DDAA /* user.png */; };
+		7CEA7DD70F0343EDB82277CC /* user-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC8D23B2AB64F22B7BA4C79 /* user-shadow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,6 +358,9 @@
 		DFC400F099424BAF8AB97F0D /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; name = "NunitoSans-Bold.ttf"; path = "../assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		AAE686332C2940CBB6A4BB71 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NunitoSans-ExtraBold.ttf"; path = "../assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0A9EE465C51846A7AC491590 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.otf"; path = "../assets/fonts/ProximaNova-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC960FBC65CE46BDB39CE007 /* user.jpg */ = {isa = PBXFileReference; name = "user.jpg"; path = "../assets/images/user.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B7271935AA2C4F22B1A6DDAA /* user.png */ = {isa = PBXFileReference; name = "user.png"; path = "../assets/images/user.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBC8D23B2AB64F22B7BA4C79 /* user-shadow.png */ = {isa = PBXFileReference; name = "user-shadow.png"; path = "../assets/images/user-shadow.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -629,6 +635,9 @@
 				DFC400F099424BAF8AB97F0D /* NunitoSans-Bold.ttf */,
 				AAE686332C2940CBB6A4BB71 /* NunitoSans-ExtraBold.ttf */,
 				0A9EE465C51846A7AC491590 /* ProximaNova-Semibold.otf */,
+				BC960FBC65CE46BDB39CE007 /* user.jpg */,
+				B7271935AA2C4F22B1A6DDAA /* user.png */,
+				FBC8D23B2AB64F22B7BA4C79 /* user-shadow.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1083,6 +1092,9 @@
 				82114B9B332340AE98CCB584 /* NunitoSans-Bold.ttf in Resources */,
 				22505EB9E439402293F5D1F6 /* NunitoSans-ExtraBold.ttf in Resources */,
 				27726329E97B49BC8AA7DFEB /* ProximaNova-Semibold.otf in Resources */,
+				A0091BEB9BEB4B309E471493 /* user.jpg in Resources */,
+				D286BA01EA1746B89F5195B2 /* user.png in Resources */,
+				7CEA7DD70F0343EDB82277CC /* user-shadow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

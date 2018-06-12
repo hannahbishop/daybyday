@@ -1,18 +1,17 @@
 import React from 'react';
 import { View , StyleSheet } from 'react-native';
 
-const Label = (props) => (
-    <View style={styles(props.color).label}></View>
+const Circle = (props) => (
+    <View style={styles(props.color).circle}></View>
 )
 
 const styles = color => StyleSheet.create({
-    label: {
+    circle: {
         backgroundColor: color,
-        height: 10,
-        width: 10,
+        height: 8,
+        width: 8,
         borderRadius: 5,
-        marginRight: 30
       }
 });
 
-export default Label;
+export default Circle;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AppRegistry, View, StyleSheet, FlatList } from 'react-native';
 import realm from 'realm.js';
 import { CardEvent } from "components/CardEvent";
+import { Menu } from 'components/Menu';
 
 let dates = realm.objects('Date');
 
@@ -18,7 +19,7 @@ export default class App extends Component {
 
   render() {
     return (
-      
+      /*
       <FlatList 
         style={styles.background}
         data={dates}
@@ -31,7 +32,8 @@ export default class App extends Component {
             }
           </View>
         )}
-        />
+        />*/
+        <Menu/>
         /*
         <TouchableWithoutFeedback onPress={this.handleAddPress}><Text>+</Text></TouchableWithoutFeedback>
         {

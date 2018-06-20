@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { AppRegistry, Image, View, StyleSheet, Text, TouchableWithoutFeedback, FlatList } from 'react-native';
-import CardEventNode from './components/card-event-node.js';
-import realm from './realm.js';
-import CardEvent from './components/card-event.js';
+import { AppRegistry, View, StyleSheet, FlatList } from 'react-native';
+import realm from 'realm.js';
+import CardEvent from 'components/card-event.js';
 
 let dates = realm.objects('Date');
 

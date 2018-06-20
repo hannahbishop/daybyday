@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { AppRegistry, View, Text,  StyleSheet, TouchableWithoutFeedback } from 'react-native';
-import Circle from './circle.js';
-import Typography from '../styles/typography.js';
+import { View, Text,  StyleSheet, TouchableWithoutFeedback } from 'react-native';
+import Circle from 'components/circle.js';
+import Typography from 'styles/typography.js';
 
 const timeStyles = props => ([
     Typography.bodyWeak,

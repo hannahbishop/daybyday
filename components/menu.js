@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TextInput } from 'react-native';
-import Typography from '../styles/typography.js';
-import UserPhoto from './user-photo.js';
-import Colors from '../styles/colors.js';
-import Category from './category.js';
+import { StyleSheet, View, Text } from 'react-native';
+import UserPhoto from 'components/user-photo.js';
+import Category from 'components/category.js';
+import Typography from 'styles/typography.js';
+import Colors from 'styles/colors.js';
 
 export default class Menu extends Component {
     render() {

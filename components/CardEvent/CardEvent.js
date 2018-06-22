@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native';
-import Circle from 'components/Circle';
+import { Circle } from 'components/Circle';
 import style from "./style";
 import Typography from 'styles/typography.js';
 

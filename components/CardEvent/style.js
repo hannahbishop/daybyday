@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import createStyles from 'styles/base';
 
-export default StyleSheet.create({
+const cardEventStyles = createStyles({
     card: {
         paddingVertical: 40,
         paddingHorizontal: 30,
@@ -24,3 +24,5 @@ export default StyleSheet.create({
         maxWidth: 65,
     }
 });
+
+export default cardEventStyles;

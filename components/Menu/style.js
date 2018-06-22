@@ -1,9 +1,8 @@
-import { StyleSheet } from 'react-native';
-import Colors from 'styles/colors.js';
+import createStyles, {colors} from 'styles/base.js';
 
-export default StyleSheet.create({
+const style = createStyles({
     background: {
-      backgroundColor: Colors.bgPrimary,
+      backgroundColor: colors.bgPrimary,
       padding: 70,
       flex: 1,
       flexDirection: "column",
@@ -16,9 +15,11 @@ export default StyleSheet.create({
     hr: {
       width: '100%',
       opacity: 0.1,
-      borderColor: Colors.fontPrimary,
+      borderColor: colors.fontPrimary,
       borderWidth: 0.5,
       marginTop: 60,
       marginBottom: 30
     },
   });
+
+export default style;

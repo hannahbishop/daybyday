@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import createStyles from 'styles/base';
 
-export default StyleSheet.create({
+const style = createStyles({
     menuItem: {
         opacity: 0.5,
         marginLeft: 10
@@ -14,3 +14,5 @@ export default StyleSheet.create({
         marginTop: 30
     }
 });
+
+export default style;

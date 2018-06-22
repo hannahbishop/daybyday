@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import createStyles from 'styles/base';
 
-const style = color => StyleSheet.create({
+const style = color => createStyles({
     circle: {
         backgroundColor: color,
         height: 8,

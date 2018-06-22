@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import createStyles from 'styles/base';
 
-export default StyleSheet.create({
+const style = createStyles({
     userphoto: {
         marginBottom: 30
     },
@@ -15,3 +15,5 @@ export default StyleSheet.create({
         top: 20
     }
 });
+
+export default style;

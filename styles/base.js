@@ -10,17 +10,17 @@ const baseStyles = {
     header: {
         fontFamily: "ProximaNova-Semibold",
         fontSize: 36,
-        color: Colors.fontPrimary
+        color: colors.fontPrimary
     },
     body: {
-        color: Colors.fontPrimary,
+        color: colors.fontPrimary,
         fontFamily: "ProximaNova-Semibold",
         fontSize: 15,
         letterSpacing: 0.5,
         marginTop: 3
     },
     bodyWeak: {
-        color: Colors.fontPrimary,
+        color: colors.fontPrimary,
         opacity: 0.3,
         fontFamily: "ProximaNova-Semibold",
         fontSize: 15,

@@ -1,4 +1,5 @@
-import Realm from 'realm';
+
+/*import Realm from 'realm';
 
 class Event extends Realm.Object {}
 Event.schema = {
@@ -20,4 +21,4 @@ Date.schema = {
     }
 };
 
-export default new Realm({schema: [Event, Date]});
+export default new Realm({schema: [Event, Date]});*/

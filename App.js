@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry, View, StyleSheet, FlatList } from 'react-native';
+import { AppRegistry, View, StyleSheet, FlatList, Button } from 'react-native';
 //import realm from 'realm.js';
 import { CardEvent } from "components/CardEvent";
 import { Menu } from 'components/Menu';
@@ -9,12 +9,25 @@ import { Menu } from 'components/Menu';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {creatingNewItem: false};
+    this.state = {
+      creatingNewItem: false,
+      showMenu: false
+    };
     this.handleAddPress = this.handleAddPress.bind(this);
+    this.menuStateOpen = this.menuStateOpen.bind(this);
+    this.menuStateClosed = this.menuStateClosed.bind(this);
   }
 
   handleAddPress() {
     this.setState({creatingNewItem: true});
+  }
+
+  menuStateOpen() {
+    this.setState({showMenu: true});
+  }
+
+  menuStateClosed() {
+    this.setState({showMenu: false});
   }
 
   render() {
@@ -33,7 +46,10 @@ export default class App extends Component {
           </View>
         )}
         />*/
-        <Menu/>
+        <View style={styles.background}>
+          <Button onPress={this.menuStateOpen} title="Show Menu"/>
+          { this.state.showMenu && <Menu handleCloseMenu={this.menuStateClosed} /> }
+        </View>
         /*
         <TouchableWithoutFeedback onPress={this.handleAddPress}><Text>+</Text></TouchableWithoutFeedback>
         {

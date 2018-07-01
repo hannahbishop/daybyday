@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 import { Category } from './Category';
 import { UserPhoto } from './UserPhoto';
 import style from './style';
 
 export default class Menu extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
     render() {
         return (
             <View style={style.background}>
+                <Button title="Close Menu" onPress={this.props.handleCloseMenu}/>
                 <UserPhoto/>
                 <View style={{alignItems: 'center'}}>
                     <Text style={[style.header, style.menuTitle]}>Hello, Kelt!</Text>

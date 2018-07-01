@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native';
 import { Circle } from 'components/Circle';
 import style from "./style";
-import baseStyles from 'styles/base.js';
 
 const timeStyles = props => ([
-    baseStyles.bodyWeak,
+    style.bodyWeak,
     (props.time? style.time : undefined)
 ]);
 
 const subtextStyles = props => ([
-    baseStyles.bodyWeak,
+    style.bodyWeak,
     (props.subtext? style.subtext : undefined)
 ]);
 
@@ -30,8 +29,8 @@ export default class CardEvent extends Component {
     render() {
         const details = this.state.isExpanded && (
             <View style={style.details}>
-                <Text style={baseStyles.bodyWeak}>{this.props.date}</Text>
-                <Text style={baseStyles.bodyWeak}>{this.props.time}</Text>
+                <Text style={style.bodyWeak}>{this.props.date}</Text>
+                <Text style={style.bodyWeak}>{this.props.time}</Text>
             </View>
         );
 
@@ -46,7 +45,7 @@ export default class CardEvent extends Component {
                     {time}
                     <Circle color={this.props.color}></Circle>
                     <View>
-                        <Text style={baseStyles.body}>{this.props.text}</Text>
+                        <Text style={style.body}>{this.props.text}</Text>
                         <Text style={subtextStyles(this.props)}>{this.props.subtext}</Text>
                     </View>
                 </View>

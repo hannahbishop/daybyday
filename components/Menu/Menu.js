@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, Image, TouchableOpacity } from 'react-native';
 import { Category } from './Category';
 import { UserPhoto } from './UserPhoto';
+import closeIcon from 'images/close-icon.png';
 import style from './style';
 
 export default class Menu extends Component {
@@ -12,7 +13,9 @@ export default class Menu extends Component {
     render() {
         return (
             <View style={style.background}>
-                <Button title="Close Menu" onPress={this.props.handleCloseMenu}/>
+                <TouchableOpacity onPress={this.props.handleCloseMenu}>
+                    <Image source={closeIcon}/>
+                </TouchableOpacity>
                 <UserPhoto/>
                 <View style={{alignItems: 'center'}}>
                     <Text style={[style.header, style.menuTitle]}>Hello, Kelt!</Text>

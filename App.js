@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { AppRegistry, View, StyleSheet, FlatList, Button } from 'react-native';
+import { AppRegistry, View, StyleSheet, FlatList, Button, Image, TouchableOpacity } from 'react-native';
 //import realm from 'realm.js';
 import { CardEvent } from "components/CardEvent";
 import { Menu } from 'components/Menu';
+import menuIcon from 'images/menu-icon.png';
+import menuBlob from 'images/menu-blob.png';
 
 //let dates = realm.objects('Date');
 
@@ -47,7 +49,10 @@ export default class App extends Component {
         )}
         />*/
         <View style={styles.background}>
-          <Button onPress={this.menuStateOpen} title="Show Menu"/>
+          <TouchableOpacity onPress={this.menuStateOpen} title="Show Menu">
+            <Image source={menuBlob}/>
+            <Image source={menuIcon} style={{position: "absolute", top: 30, left: 20}}/>
+          </TouchableOpacity>
           { this.state.showMenu && <Menu handleCloseMenu={this.menuStateClosed} /> }
         </View>
         /*

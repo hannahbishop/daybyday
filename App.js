@@ -5,6 +5,7 @@ import { CardEvent } from "components/CardEvent";
 import { Menu } from 'components/Menu';
 import menuIcon from 'images/menu-icon.png';
 import menuBlob from 'images/menu-blob.png';
+import { Tabs } from 'config/navigation/Tabs';
 
 //let dates = realm.objects('Date');
 
@@ -48,13 +49,17 @@ export default class App extends Component {
           </View>
         )}
         />*/
+        /*
         <View style={styles.background}>
+          { Tabs }
           <TouchableOpacity onPress={this.menuStateOpen} title="Show Menu">
             <Image source={menuBlob}/>
             <Image source={menuIcon} style={{position: "absolute", top: 30, left: 20}}/>
           </TouchableOpacity>
-          { this.state.showMenu && <Menu handleCloseMenu={this.menuStateClosed} /> }
+          { this.state.showMenu && <Menu handleCloseMenu={this.menuStateClosed}/> }
         </View>
+        */
+
         /*
         <TouchableWithoutFeedback onPress={this.handleAddPress}><Text>+</Text></TouchableWithoutFeedback>
         {
@@ -65,6 +70,7 @@ export default class App extends Component {
           )
         }
         */
+       <Tabs />
     )
   }
 }

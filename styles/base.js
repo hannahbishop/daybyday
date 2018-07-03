@@ -6,10 +6,10 @@ export const colors = {
     bgSecondary: '#3B434E',
 };
 
-const baseStyles = {
+export const baseStyles = {
     header: {
         fontFamily: "ProximaNova-Semibold",
-        fontSize: 36,
+        fontSize: 27,
         color: colors.fontPrimary
     },
     body: {

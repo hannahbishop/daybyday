@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="79px" viewBox="0 0 56 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.4%" y="-9.0%" width="114.9%" height="118.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calendar-Main">
+            <g id="Group-3" transform="translate(-50.000000, -49.000000)">
+                <path d="M38.8950803,105.246867 C89.2534787,86.0935462 110.296447,94.5800087 110.296447,64.7566322 C110.296447,34.9332557 81.1949562,10.7566322 45.2964475,10.7566322 C9.39793875,10.7566322 -0.316833758,38.2556556 -7.80706813,61.3923744 C-15.2973025,84.5290931 -11.4633181,124.400187 38.8950803,105.246867 Z" id="Oval-13" fill="#000000" opacity="0.0599999987" filter="url(#filter-1)" transform="translate(49.769908, 60.526540) rotate(-90.000000) translate(-49.769908, -60.526540) "></path>
+                <path d="M46.9453826,107.956462 C89.7149138,88.4779468 109.513742,91.6821827 109.513742,61.8588062 C109.513742,32.0354297 80.4122507,7.85880621 44.5137419,7.85880621 C8.6152332,7.85880621 7.02546068,31.5912281 -1.49797682,61.6869312 C-10.0214143,91.7826343 4.17585131,127.434978 46.9453826,107.956462 Z" id="Oval-13" fill="#FBFBFB" transform="translate(52.827468, 60.686274) rotate(-90.000000) translate(-52.827468, -60.686274) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

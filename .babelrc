@@ -6,7 +6,9 @@
       "alias": {
         "components": "./components",
         "styles": "./styles",
-        "images": "./assets/images"
+        "images": "./assets/images",
+        "views": "./views",
+        "config": "./config",
       }
     }]
   ]
